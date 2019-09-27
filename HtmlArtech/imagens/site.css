@@ -10,5 +10,27 @@ body{
 }
 
 header{
-    
+    height: 170px;
+    background-color: #008eb6;
+}
+
+header img{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+header h1{
+    float: left;
+    margin: 50px 0 0 30px;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+nav{
+    clear: both;
+    width: 80%;
+    margin: 0px auto;
+    height: 55px;
 }
