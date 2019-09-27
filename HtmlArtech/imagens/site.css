@@ -34,3 +34,9 @@ nav{
     margin: 0px auto;
     height: 55px;
 }
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
