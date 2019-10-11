@@ -1,127 +1,196 @@
 @charset "UTF-8";
 
-/**********************************************\
-|                TELA INICIAL                   |
-\**********************************************/
+/********************************************** 
+TELA INICIAL
+*************************************************/
 
 body{
-    margin: 0 auto;
-    font-family:"Verdana", sans-serif;
+	margin: 0 auto;
+	font-family: "Verdana", sans-serif;
 }
 
 header{
-    height: 170px;
-    background-color: #008eb6;
+	height: 170px;
+	background-color: #008eb6;
 }
 
 header img{
-    float: left;
-    height: 150px;
-    width: 150px;
-    margin: 10px;
+	float: left;
+	height: 150px;
+	width: 150px;
+	margin: 10px;
 }
 
 header h1{
-    float: left;
-    margin: 50px 0 0 30px;
-    font-size: 60px;
-    color: #ffffff;
+	float: left;
+	margin: 50px 0 0 30px;
+	font-size: 60px;
+	color: #ffffff;
 }
-
 nav{
-    clear: both;
-    width: 80%;
-    margin: 0px auto;
-    height: 55px;
+	clear: both;
+	width: 80%;
+	margin: 0px auto:
+	height: 50px;
 }
 
 nav a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
 
 /* Menu */
 
 nav{
-    clear:both;
-    width: 80%;
-    margin: 0px auto;
-    height: 55px;
+	clear: both;
+	width: 80%;
+	margin: 0px auto;
+	height: 55px;
 }
 
 nav a{
-    color: white;
-    text-decoration: none;
-    text-align: center;
-}
-nav .opcao{
-    float: left;
-    width: 31.3%;
-    background-color: #b1ccf5;
-    padding: 10px 0;
-    margin: 0 1%;
-    font-size: 26px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
 }
 
-nav .opcao:hover{
-    background-color: #83afd3
+nav .opcao{
+	float: left;
+	width: 31.3%;
+	background-color: #b1ccf5;
+	padding: 10px 0;
+	margin: 0 1%;
+	font-size: 26px;
+}
+
+nav .opcao: hover{
+	background-color: #83afd3;
 }
 
 section{
-    clear:both;
-    min-height: 360px;
-    width: 100%;
-    margin-top: 0px;
-
+	clear: both;
+	min-height: 360px;
+	width: 100%;
+	margin-top: 0px;
 }
 
 section #topo{
-    width:1050px;
-    margin: 0px auto;
-    height: 270px;
+	width: 1050px;
+	margin: 0px auto;
+	height: 270px;
 }
 
 .arcondicionado{
-    height: 200px;
-    width: 200px;
+	height: 200px;
+	width: 200px;
 }
-
 .direito{
-    floor: right;
+	float: right;
 }
-
 .esquerdo{
-    float: left;
+	float: left;
 }
-
 .topo2{
-    height: 250px;
-    width: 800px;
+	height: 250px;
+	width: 800px;
 }
 
 section #titulos{
-    float: left;
-    height: 250px;
-    width: 650px;
-    margin: 0px auto;
+	float: left;
+	height: 250px;
+	width: 650px;
+	margin: 0px auto;
 }
 
 h2{
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 2   0px;
-    font-size: 40px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 2 0px;
+	font-size: 40px;
 }
 
 h3{
-    text-align: center;
-    margin-top: 50px;
-    font-size: 20px;
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
 }
 
 section p{
-    clear: both;
-    text-align: center;
-    margin: 10px 80px;
+	clear: both;
+	text-align: center;
+	margin: 10px 80px;
+}
+
+footer{
+	background-color: #005f89;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/*************************
+CONFIGURAÇÃO PRODUTOS
+**************************/
+
+.tabelaProdutos{
+	margin: 10px auto;
+	text-align: center;
+}
+.tituloTabela{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px;
+	border: transparent;
+}
+.imagenstb{
+	height: 40px;
+	width: 50px;
+}
+
+tr,td,th{
+	border: 1px solid #B0C4DE;
+	padding: 5px;
+}
+tr,td{
+	font-size: 14px;
+}
+tr:nth-child(even) {
+	background-color: #b1ccf5:;
+}
+
+tr:nth-child(odd) {
+	background-color: #83afd3;
+}
+
+/***************************
+CONFIGURAÇÃO FALECONOSCO
+***************************/
+
+.faleconosco{
+	width: 300px;
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.faleconosco input, .faleconosco textarea, .faleconosco select{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+
+.faleconosco textarea{
+	height: 100px;
+	resize: none;
+}
+
+.faleconosco button{
+	width: 30%;
+	margin: 0 10%;
+	background-color: #b1ccf5;
+	font-weight: bold;
+	font-size: 16px;
 }
